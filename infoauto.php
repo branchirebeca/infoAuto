@@ -18,8 +18,8 @@ function getAuthToken()
         CURLOPT_POSTFIELDS => "", // Cuerpo de solicitud vacío
         CURLOPT_HTTPHEADER => array(
             'Content-Length: 0', // Longitud del cuerpo de la solicitud: 0
-            'Authorization: Basic c2lzdGVtYXNAZGVjcmVkaXRvcy5jb206JFRVY3dFK2RCJmp4dD03Mw==',
-            'Cookie: session=.eJyrVspMSc0rySyp1EssLcmIL6ksSFWyyivNydFByGSmQIRqAZu4EWc.ZlCRLg.JgLtYB2n0bngpj2u8oBZQJEepEo'
+            'Authorization: Basic token',
+            'Cookie: ...'
         ),
     ));
 
