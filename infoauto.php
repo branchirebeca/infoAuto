@@ -16,7 +16,7 @@ function getAuthToken()
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => 'POST',
         CURLOPT_POSTFIELDS => "", // Cuerpo de solicitud vacío
-        CURLOPT_HTTPHEADER => array(
+          CURLOPT_HTTPHEADER => array(
             'Content-Length: 0', // Longitud del cuerpo de la solicitud: 0
             'Authorization: Basic token',
             'Cookie: ...'
@@ -63,7 +63,7 @@ function traerInfo($access_token, $modelo)
         CURLOPT_CUSTOMREQUEST => 'GET',
         CURLOPT_HTTPHEADER => array(
             'Authorization: Bearer ' . $access_token,
-            'Cookie: session=.eJyrVspMSc0rySyp1EssLcmIL6ksSFWyyivNydFByGSmQIRqAZu4EWc.ZlB-wQ.ELljUg7UhRZJ2t3Ygn9FuWYvHQU'
+            'Cookie: ...'
         ),
     ));
 
